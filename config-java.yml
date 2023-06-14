@@ -1,5 +1,4 @@
 # https://openapi-generator.tech/docs/generators/java/
-validateSpec: false
 additionalProperties:
   artifactId: sentry-api-client-java
   apiPackage: com.sentry.api.client.java

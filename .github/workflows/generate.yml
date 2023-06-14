@@ -17,7 +17,6 @@ jobs:
         with:
           generator: java
           config-file: config-java.yml
-          openapi-url: https://raw.githubusercontent.com/getsentry/sentry-api-schema/main/openapi-derefed.json
           command-args: --git-user-id fsmaia --git-repo-id sentry-api-client-java
       - name: Do something with the client
         run: |
