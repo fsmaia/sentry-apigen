@@ -1,0 +1,24 @@
+name: generate
+on: [push]
+jobs:
+  generate-api-clients:
+    runs-on: ubuntu-latest
+    name: Generate API clients
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Checkout API Schema
+        uses: actions/checkout@v3
+        with:
+          repository: getsentry/sentry-api-schema
+          path: sentry-api-schema
+      - name: Generate Java Client
+        uses: openapi-generators/openapitools-generator-action@v1
+        with:
+          generator: java
+          config-file: config-java.yml
+          openapi-url: https://raw.githubusercontent.com/getsentry/sentry-api-schema/main/openapi-derefed.json
+          command-args: --git-user-id fsmaia --git-repo-id sentry-api-client-java
+      - name: Do something with the client
+        run: |
+          cd typescript-angular-client

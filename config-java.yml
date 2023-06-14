@@ -1,0 +1,7 @@
+# https://openapi-generator.tech/docs/generators/java/
+additionalProperties:
+  artifactId: sentry-api-client-java
+  apiPackage: com.sentry.api.client.java
+  allowUnicodeIdentifiers: true
+  serializableModel: true
+  dateLibrary: java8
