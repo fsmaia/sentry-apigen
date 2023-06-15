@@ -12,12 +12,13 @@ jobs:
         with:
           repository: getsentry/sentry-api-schema
           path: sentry-api-schema
-      - name: Generate Java Client
+      - name: Generate Java client
         uses: openapi-generators/openapitools-generator-action@v1
         with:
           generator: java
           generator-tag: v6.6.0
           config-file: config-java.yml
+          openapi-url: https://raw.githubusercontent.com/getsentry/sentry-api-schema/main/openapi-derefed.json
           command-args: --git-user-id fsmaia --git-repo-id sentry-api-client-java
       - name: Do something with the client
         run: |
