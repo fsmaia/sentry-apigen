@@ -20,6 +20,13 @@ jobs:
           config-file: config-java.yml
           openapi-url: https://raw.githubusercontent.com/getsentry/sentry-api-schema/main/openapi-derefed.json
           command-args: --git-user-id fsmaia --git-repo-id sentry-api-client-java
-      - name: Do something with the client
-        run: |
-          cd typescript-angular-client
+      - name: Commit and push (Java client)
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+        with:
+          source-directory: java-client
+          destination-github-username: fsmaia
+          destination-repository-name: sentry-api-client-java
+          user-email: fsmaia@gmail.com
+          target-branch: main
