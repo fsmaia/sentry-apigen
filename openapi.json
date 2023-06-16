@@ -16196,7 +16196,6 @@
                               "nullable": true
                             },
                             "lastDeploy": {
-                              "type": "object",
                               "nullable": true,
                               "oneOf": [
                                 {
