@@ -1,6 +1,5 @@
 # https://openapi-generator.tech/docs/generators/java/
 additionalProperties:
-  allowUnicodeIdentifiers: true
   apiPackage: com.sentry.api.client.api
   artifactId: sentry-api-client-java
   groupId: com.sentry
