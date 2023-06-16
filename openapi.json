@@ -16236,29 +16236,7 @@
                                 },
                                 {
                                   "type": "string",
-                                  "nullable": true,
-                                  "not": {
-                                    "anyOf": [
-                                      {
-                                        "type": "string"
-                                      },
-                                      {
-                                        "type": "number"
-                                      },
-                                      {
-                                        "type": "boolean"
-                                      },
-                                      {
-                                        "type": "object"
-                                      },
-                                      {
-                                        "type": "array",
-                                        "items": {
-                                          "type": "string"
-                                        }
-                                      }
-                                    ]
-                                  }
+                                  "nullable": true
                                 }
                               ]
                             },
@@ -19738,29 +19716,7 @@
                                 },
                                 {
                                   "type": "string",
-                                  "nullable": true,
-                                  "not": {
-                                    "anyOf": [
-                                      {
-                                        "type": "string"
-                                      },
-                                      {
-                                        "type": "number"
-                                      },
-                                      {
-                                        "type": "boolean"
-                                      },
-                                      {
-                                        "type": "object"
-                                      },
-                                      {
-                                        "type": "array",
-                                        "items": {
-                                          "type": "string"
-                                        }
-                                      }
-                                    ]
-                                  }
+                                  "nullable": true
                                 }
                               ]
                             },
@@ -21195,29 +21151,7 @@
                                 },
                                 {
                                   "type": "string",
-                                  "nullable": true,
-                                  "not": {
-                                    "anyOf": [
-                                      {
-                                        "type": "string"
-                                      },
-                                      {
-                                        "type": "number"
-                                      },
-                                      {
-                                        "type": "boolean"
-                                      },
-                                      {
-                                        "type": "object"
-                                      },
-                                      {
-                                        "type": "array",
-                                        "items": {
-                                          "type": "string"
-                                        }
-                                      }
-                                    ]
-                                  }
+                                  "nullable": true
                                 }
                               ]
                             },
@@ -22911,29 +22845,7 @@
                           },
                           {
                             "type": "string",
-                            "nullable": true,
-                            "not": {
-                              "anyOf": [
-                                {
-                                  "type": "string"
-                                },
-                                {
-                                  "type": "number"
-                                },
-                                {
-                                  "type": "boolean"
-                                },
-                                {
-                                  "type": "object"
-                                },
-                                {
-                                  "type": "array",
-                                  "items": {
-                                    "type": "string"
-                                  }
-                                }
-                              ]
-                            }
+                            "nullable": true
                           }
                         ]
                       },
@@ -23289,29 +23201,7 @@
                         },
                         {
                           "type": "string",
-                          "nullable": true,
-                          "not": {
-                            "anyOf": [
-                              {
-                                "type": "string"
-                              },
-                              {
-                                "type": "number"
-                              },
-                              {
-                                "type": "boolean"
-                              },
-                              {
-                                "type": "object"
-                              },
-                              {
-                                "type": "array",
-                                "items": {
-                                  "type": "string"
-                                }
-                              }
-                            ]
-                          }
+                          "nullable": true
                         }
                       ]
                     },
@@ -23532,29 +23422,7 @@
                         },
                         {
                           "type": "string",
-                          "nullable": true,
-                          "not": {
-                            "anyOf": [
-                              {
-                                "type": "string"
-                              },
-                              {
-                                "type": "number"
-                              },
-                              {
-                                "type": "boolean"
-                              },
-                              {
-                                "type": "object"
-                              },
-                              {
-                                "type": "array",
-                                "items": {
-                                  "type": "string"
-                                }
-                              }
-                            ]
-                          }
+                          "nullable": true
                         }
                       ]
                     },
@@ -23815,29 +23683,7 @@
                         },
                         {
                           "type": "string",
-                          "nullable": true,
-                          "not": {
-                            "anyOf": [
-                              {
-                                "type": "string"
-                              },
-                              {
-                                "type": "number"
-                              },
-                              {
-                                "type": "boolean"
-                              },
-                              {
-                                "type": "object"
-                              },
-                              {
-                                "type": "array",
-                                "items": {
-                                  "type": "string"
-                                }
-                              }
-                            ]
-                          }
+                          "nullable": true
                         }
                       ]
                     },
