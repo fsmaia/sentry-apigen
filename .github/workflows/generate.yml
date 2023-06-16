@@ -18,7 +18,7 @@ jobs:
           generator: java
           generator-tag: v6.6.0
           config-file: config-java.yml
-          openapi-url: https://raw.githubusercontent.com/getsentry/sentry-api-schema/main/openapi-derefed.json
+          # openapi-url: https://raw.githubusercontent.com/getsentry/sentry-api-schema/main/openapi-derefed.json
           command-args: --git-user-id fsmaia --git-repo-id sentry-api-client-java
       - name: Commit and push (Java client)
         uses: cpina/github-action-push-to-another-repository@main
