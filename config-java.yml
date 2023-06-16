@@ -6,5 +6,3 @@ additionalProperties:
   groupId: com.sentry
   invokerPackage: com.sentry.api.client
   modelPackage: com.sentry.api.client.model
-  serializableModel: true
-  useJakartaEe: true
