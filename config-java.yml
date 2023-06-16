@@ -4,5 +4,6 @@ additionalProperties:
   artifactId: sentry-api-client-java
   groupId: com.sentry
   invokerPackage: com.sentry.api.client
+  legacyDiscriminatorBehavior: false
   library: jersey3
   modelPackage: com.sentry.api.client.model
